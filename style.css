@@ -1,0 +1,105 @@
+body{
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  scrollbar-width: 0px;
+  
+}
+
+
+#papo{
+  position:absolute;
+  left: 90%;
+  top: 15px;
+}
+
+#core{
+  position: absolute;
+  left: 80%;
+  top: 18px;
+}
+
+.divpri{
+  min-height: 44px;
+}
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  min-height:120px;
+  margin-top:6px;
+  border-bottom:1px solid rgba(0, 0, 0, 0.2);
+}
+
+header img{
+  padding: 4px;
+  height:75px;
+  width:75px;
+  Border-radius:50%;
+  border: 3px solid ;
+  border-color:  deeppink  orange;
+  
+} 
+
+header p{
+  font-size: 14px;
+  margin-top:-1px;
+  margin-left:15px;
+}
+
+
+
+
+
+
+footer{ 
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  min-height: 50px;
+  background: white;
+  width:100%;
+  
+  
+  display: flex;
+  align-items:center;
+  justify-content:space-between ;
+  border-top: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+footer a{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width:75px;
+}
+
+
+
+
+.perfil{
+  border-radius: 40px;
+}
+
+
+.abaixo{
+  display: flex;
+  align-items:center;
+  
+  
+}
+
+.abaixo p{
+  margin-left:10px;
+}
+
+.abaixo img{
+  border: 2px solid;
+  border-color: deeppink orange;
+  padding: 2px;
+}
+
